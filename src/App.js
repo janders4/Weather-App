@@ -1,7 +1,8 @@
 import React from "react";
 import Header from "./components/Header";
-import Search_box from "./components/Search_box";
+import SearchBox from "./components/SearchBox";
 import Weather from "./components/Weather";
+import './style.css';
 
 class App extends React.Component {
   render() {
@@ -11,8 +12,8 @@ class App extends React.Component {
           <Header />
         </header>
         <main>
-          <Search_box />
-          <Weather />
+          <SearchBox />
+          <Weather city="Leeds"/>
         </main>
       </div>
     );

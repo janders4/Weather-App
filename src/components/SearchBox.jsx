@@ -1,7 +1,7 @@
 import React, { Component } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 
-class Search_box extends Component {
+class SearchBox extends Component {
   render() {
     return (
       <form>
@@ -15,4 +15,4 @@ class Search_box extends Component {
 
 //search_box.propTypes = {};
 
-export default Search_box;
+export default SearchBox;

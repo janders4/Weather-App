@@ -1,0 +1,12 @@
+div.weather-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+div.forecast-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
