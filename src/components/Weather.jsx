@@ -69,7 +69,7 @@ class Weather extends Component {
     } else {
       return (
         <div>
-          <p>{this.props.city}</p>
+          <h2>{this.props.city}</h2>
           <div className="weather-container">
             {forecast.map((day, ind) => {
               return (
